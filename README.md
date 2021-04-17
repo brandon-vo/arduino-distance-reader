@@ -2,7 +2,7 @@
 Arduino distance reader circuit using an ultrasonic sensor
 
 Schematic
-![Schematic](https://user-images.githubusercontent.com/76707560/115121264-ae5e2300-9f7f-11eb-9f21-c34eef6a0515.png
+![Schematic](https://user-images.githubusercontent.com/76707560/115121264-ae5e2300-9f7f-11eb-9f21-c34eef6a0515.png)
 
 Circuit images
 ![Circuit 1](https://user-images.githubusercontent.com/76707560/115121268-b0c07d00-9f7f-11eb-838b-161a7198c80f.jpg)
