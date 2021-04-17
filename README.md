@@ -1,5 +1,6 @@
 # arduino-distance-reader
-Arduino distance reader circuit using an ultrasonic sensor
+The following circuit and code is for an Arduino distance reader using an ultrasonic sensor.
+This measures distance by calculating the duration of the pulse of an ultrasonic wave from the sensor (microseconds) multiplied by the speed of sound in cm/μs and dividing the result by 2 to get the distance from an object to the sensor.
 
 Schematic
 ![Schematic](https://user-images.githubusercontent.com/76707560/115121264-ae5e2300-9f7f-11eb-9f21-c34eef6a0515.png)
