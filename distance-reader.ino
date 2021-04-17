@@ -1,3 +1,5 @@
+// Arduino distance reader using an ultrasonic sensor
+// Created by Brandon Vo
 #include <LiquidCrystal.h>
 
 // Define pins
