@@ -16,7 +16,6 @@ double distanceInInch; // Distance in inches
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 void setup() {
-
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(redLightPin, OUTPUT);
@@ -67,14 +66,12 @@ void distanceMeasurement() {
 
 // Display distance onto LCD
 void displayDistance() {
-
   lcd.setCursor(0, 0); // First line
   lcd.print("D (cm): "); // Centimeter Label
   if (distanceInCm > 0) { // Check if the distance is valid
     lcd.print(distanceInCm, 1); // Print centimeters and round to 1 decimal
   } else
     lcd.print("N/A  "); // Invalid distance
-
 
   lcd.setCursor(0, 1); // Second line
   lcd.print("D (in): "); // Inch label
@@ -109,7 +106,6 @@ void lcdFormat() {
 
 // Set RGB colours
 void setRGBColour(int redLightValue, int greenLightValue, int blueLightValue) {
-
   analogWrite(redLightPin, redLightValue);
   analogWrite(greenLightPin, greenLightValue);
   analogWrite(blueLightPin, blueLightValue);
